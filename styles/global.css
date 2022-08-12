@@ -41,3 +41,33 @@ footer {
 .hide {
     display: none;
 }
+
+/* Just add .fade-out class to element */
+
+.fade-out {
+    animation: fadeOut 1s;
+    opacity: 0;
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+.fade-in {
+    animation: fadeIn 1s;
+    opacity: 1;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
